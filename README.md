@@ -17,10 +17,10 @@ Você pode ver o projeto funcionando em tempo real aqui: [Barber Shop Demo](http
 
 ### Visualização do Projeto
 
-![Screenshot Modo Claro](<img src="/public/layout-landing-page-tema-claro.png>)
+![Screenshot Modo Claro](/public/layout-landing-page-tema-claro.png)
 _Modo Claro_
 
-![Screenshot Modo Escuro](<img src="/public/layout-landing-page-tema-escuro.png>)
+![Screenshot Modo Escuro](/public/layout-landing-page-tema-escuro.png)
 _Modo Escuro_
 
 ## Instalação e Execução
