@@ -17,13 +17,11 @@ Você pode ver o projeto funcionando em tempo real aqui: [Barber Shop Demo](http
 
 ### Visualização do Projeto
 
-![Screenshot Modo Claro](https://seulinkdaimagem1aqui.com/imagem-modo-claro.png)
+![Screenshot Modo Claro](<img src="/public/layout-landing-page-tema-claro.png>)
 _Modo Claro_
 
-![Screenshot Modo Escuro](https://seulinkdaimagem2aqui.com/imagem-modo-escuro.png)
+![Screenshot Modo Escuro](<img src="/public/layout-landing-page-tema-escuro.png>)
 _Modo Escuro_
-
-**Observação**: As imagens acima são placeholders. Por favor, substitua `https://seulinkdaimagem1aqui.com/imagem-modo-claro.png` e `https://seulinkdaimagem2aqui.com/imagem-modo-escuro.png` pelas URLs reais de onde suas imagens estarão hospedadas (ex: um serviço de hospedagem de imagens ou o próprio repositório GitHub, se for o caso).
 
 ## Instalação e Execução
 
