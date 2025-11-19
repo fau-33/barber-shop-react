@@ -1,15 +1,26 @@
+"use client";
+import { useState } from "react";
 import estilos from "./page.module.css";
 import Banner from "../../public/banner.jpg";
 import Logo from "../../public/logo.png";
 import Image from "next/image";
+import { FiSun, FiMoon } from "react-icons/fi";
 
 export default function Home() {
+  const [temaDark, setTemaDark] = useState(false);
+
+  function alterarTema() {
+    setTemaDark(!temaDark);
+  }
+
   return (
-    <div>
+    <div className={temaDark ? estilos.modo_escuro : estilos.modo_claro}>
       <header className={estilos.header_container}>
         <div>
           <Image src={Logo} alt="logo" />
-          <button>Entrar</button>
+          <button onClick={alterarTema}>
+            {temaDark ? <FiSun /> : <FiMoon />}
+          </button>
         </div>
       </header>
       <main className={estilos.main_container}>
